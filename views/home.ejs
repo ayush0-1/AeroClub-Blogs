@@ -2,7 +2,7 @@
 
     <h1>Home</h1>
     <p > <%= homedata %> </p>
-
+<hr>
    <% posts.map((cont)=>{ %>
       <h1 style="font-size:x-large;"> <%= cont.title %> </h1>
       <p> <%= cont.content.substring(0 , 170) + "..." %> <a href="/post/ <%= cont.title %>">Read more</a></p>
